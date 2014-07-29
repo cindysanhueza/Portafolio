@@ -1,0 +1,45 @@
+
+h3{
+	padding-top: 120px;
+	font-family: "Open sans", sans-serif;
+	font-size: 27px;
+	float: center;
+	color:#53A99A;
+}
+
+#grande{
+	width:400px;
+	margin:0 auto;
+	margin-bottom: 2%;
+	display:block;
+}
+
+#grande img{
+	width:400px;
+}
+
+#miniaturas{
+	width:800px;
+	margin:0 auto;
+	display:block;
+	list-style-type: none;
+	float: left;
+
+}
+
+#miniaturas img{
+	width:80px;
+	border-radius:80px;
+	border:4px solid #ddd;
+	-webkit-transition:all .25s linear;
+}
+
+#miniaturas img:hover{
+		-webkit-transform:scale(1.2);
+}
+.preloader{
+	position: absolute;;
+	top:30%;
+	left:50%;
+}
+

@@ -1,0 +1,72 @@
+
+
+#contacto{
+	margin: 190px auto;
+	width: 452px;
+	padding-bottom: 0px;
+	float: center;
+}
+
+#contacto h3{
+	padding-bottom: 10px;
+	font-family: "Open sans", sans-serif;
+	font-size: 27px;
+	float: center;
+	color:#53A99A;
+}
+
+#contacto img{
+		 width: 200px; 
+		height: 200px; 
+		border-radius: 150px; 
+		-webkit-border-radius: 150px; 
+		-moz-border-radius: 150px; 
+		
+		box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+		float: center;
+
+	} 
+
+
+
+#contacto p{
+	font:14px "Open sans", sans-serif;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+
+
+
+
+
+#formulario{
+	height: 600px;
+	float:center;
+}
+
+label{
+	display: block;
+}
+
+#btnSubmit{
+	border:none;
+	background-color: #F0F0E1;
+	color:#53A99A;
+	padding: 4px;
+	margin: 20px;
+	cursor:pointer;
+}
+
+      h3{ 
+                padding-top: px;
+    font-family: "Open sans", sans-serif;
+    font-size: 27px;
+    float: center;
+    color:#53A99A;
+    text-align: center;
+  
+
+            }

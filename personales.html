@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portafolio Cindy Sanhueza</title>
+  <meta charset="UTF-8">
+  
+ 
+  
+  <link rel="stylesheet" href="collapsingheader.css">
+   <link rel="stylesheet" href="movegalery.css">
+  
+</head>
+
+<body>
+
+	<div id="container">
+		<header>
+			<div class="logo">
+				<a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/index.html"><img src="imagenes/logo 45x71px-12.png" ></a>
+				
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/proyectos.html">PROYECTOS</a></li>
+					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/estudios.html">ESTUDIOS</a></li>
+					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/personales.html">PERSONALES</a></li>
+					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/digital.html">DIGITAL</a></li>
+					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/contacto.html">SOBRE MÍ</a></li>
+				</ul>
+			</div>
+		</header>	
+	</div>	
+
+
+	<h3>PERSONALES</h3>
+
+
+	<h4>Xilografía - Pintura - Encuadernación - Estencil</h4>
+	
+<div id="seccion-galeria">
+
+	<div id="contenido_galeria">
+  <div id="imagen1">
+    <img src="imagenes/xilografia17.jpg" alt="" />
+    
+    <p>Xilografía</p>
+  </div>
+  <div id="imagen2">
+    <img src="imagenes/xilografia15.jpg" alt="" />
+    <p>Xilografía</p>
+  </div>
+ <div id="imagen3">
+    <img src="imagenes/pintura1.jpg" alt="" />
+    <p>Xilografía</p>
+  </div>
+
+
+</div><!-- fin div contenido-galeria -->
+
+
+
+<div class="jMyCarousel">
+    <ul>
+        <li><a href="#imagen1" title=""><img src="imagenes/xilografia17chica.jpg"alt="" /></a></li>
+        <li><a href="#imagen2" title=""><img src="imagenes/xilografia15chica.jpg"alt="" /></a></li>
+        <li><a href="#imagen3" title=""><img src="imagenes/pintura1chica.jpg"alt="" /></a></li>
+        
+    </ul>
+</div>
+<!-- Fin div jMyCarousel -->
+</div>
+
+
+		
+	    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>
+<script type="text/javascript" src="jMyCarousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".jMyCarousel").jMyCarousel({ // Script de los Thumbnails
+    visible: '79%',
+    eltByElt: true
+    });
+$(".jMyCarousel img").fadeTo(100, 0.6);
+$(".jMyCarousel a img").hover(
+    function(){ //mouse over
+       $(this).fadeTo(400, 1);
+    },
+    function(){ //mouse out
+      $(this).fadeTo(400, 0.6);
+    });
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){ // Script de la Galeria
+    $('#contenido_galeria div').css('position', 'absolute').not(':first').hide();
+    $('#contenido_galeria div:first').addClass('aqui');
+    $('.jMyCarousel a').click(function(){
+        $('#contenido_galeria div.aqui').fadeOut(400);
+        $('#contenido_galeria div').removeClass('aqui').filter(this.hash).fadeIn(400).addClass('aqui');
+        return false;
+    });
+});
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+	<section id="acerca-de">
+		<article>
+				<li>Cindy Sanhueza Castro.  2014</li>
+				<li>cindy.sanhueza2011@gmail.com</li>
+		</article>
+	</section>
+		
+	<section id="redes-s">
+		<div class="facebook"><a href="https://www.facebook.com/cindy.sanhuezacastro" title=""></a></div>
+		<div class="github"><a href="https://github.com/cindysanhueza" title=""></a></div>
+	</section>
+
+</footer>
+
+
+
+	</body>
+</html>
