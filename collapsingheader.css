@@ -13,7 +13,7 @@ body{
 }
 
 header{
-	height: 100px;
+	height: 50px;
 	background: #fff;
 	width:100%;
 	z-index: 10;
@@ -28,12 +28,7 @@ header{
 .logo{
 	float:left;
 	padding-left: 139px;
-	padding-top: 11px;
-
-
-	
-	
-		
+	padding-top: 11px;		
 }
 
 .nav {
@@ -75,7 +70,7 @@ text-decoration: none;
 	position: fixed;
 	top:100px;
 	
-	background: url("imagenes/congruent_pentagon.png") ;
+	background: url("imagenes/congruent_pentagon.png");
 	background-repeat: repeat;
 	opacity: 1;
 	visibility: visible;
@@ -130,6 +125,7 @@ text-decoration: none;
 	color:#7F8184;
 	text-align: center;
 }
+
 
 .imagenes{
 	margin: auto;

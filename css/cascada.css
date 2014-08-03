@@ -1,48 +1,40 @@
-/*body,  div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form{
-	margin:0; padding: 0; border:0;
-} */
-
 body{
-	text-align: center;
-
+	font:14px/30px "Open sans", sans-serif;
 	width:100%;
 	margin:auto;
-	font:14px/30px "Open sans", sans-serif;
-	
-
 }
 
 header{
-	height: 100px;
+	height: 50px;
 	background: #fff;
 	width:100%;
 	z-index: 10;
 	position:fixed;
 	top:0;
-	box-shadow:0 5px 10px rgba(0,0,0,0,1);
-	-webkit-box-shadow: 0px 5px 10px #242415; 
-	-moz-box-shadow: 0px 5px 10px #242415; 
+	box-shadow:0 5px 10px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0px 5px 10px #575748; 
+	-moz-box-shadow: 0px 5px 10px #575748; 
 }
-
 
 .logo{
 	float:left;
-	padding-left: 139px;
-	padding-top: 11px;
+	margin-left: 100px;
+	margin-top: 7px;
+}
 
-
-	
-	
-		
+.logo img{
+	width:24px;
+	height:38px;
 }
 
 .nav {
 	float:right;
-	}
+	margin-top: -3px;
+}
 
 /* Links */
 a{
-text-decoration: none;	
+	text-decoration: none;	
 	color: gray;
 	display: block;
 }
@@ -55,27 +47,24 @@ text-decoration: none;
 .nav li:hover {
 	padding-right: 0px;
 	border-bottom: #874F99 solid;
-	
 }
-
 
 .nav li{
 	list-style: none;
 	float:left;
-	padding-top: 20px;
+	margin-top: 0px;
 	font-family: "Open sans", sans-serif;
 	font-size: 12px;
 	margin-right: 50px;
-
 }
 
 #banner{
 	width:100%;
 	height:800px;
 	position: fixed;
-	top:100px;
-	
-	background: url("imagenes/congruent_pentagon.png") ;
+	top:50px;
+
+	background: url("file:///C:/Users/Administrador/Documents/GitHub/Portafolio/imagenes/congruent_pentagon.png");
 	background-repeat: repeat;
 	opacity: 1;
 	visibility: visible;
@@ -91,7 +80,7 @@ text-decoration: none;
 	text-align: center;	
 	}
 
-#banner h2{
+#banner h1{
 	float:center;
 	padding-top: 74px;
 	font-size: 27px; 
@@ -99,58 +88,47 @@ text-decoration: none;
 	top:600px;
 	text-align: center;
 }
-
-
-
+/*Inicia Contenido*/
 #content{
 	width: 100%;
 	position: relative;
 	top: 610px;
 	background: #fff;
 	height: 1100px;
-
 }
 
 
-.letra-azul h3{
-
+.letra-azul h2{
 	padding-top: 120px;
 	font-family: "Open sans", sans-serif;
 	font-size: 27px;
-	float: center;
 	color:#53A99A;
 	text-align: center;
-
+	float: center;
 }
 
 .letra-azul p{
-	float: center;
 	font-family: "Open sans", sans-serif;
 	font-size: 16px;
 	color:#7F8184;
 	text-align: center;
 }
 
+
 .imagenes{
 	margin: auto;
 	padding-top:43px;
-
-
+	float: center;
+	width:948px;
+	height:188px;
 }
 
-.imagen-izquierda{
-	padding-left: 200px;
-	float:left;
-}
-
-.imagen-derecha{
-	float:left;
-	padding-left: 200px;
+.imagenes img{
+	padding-right: 20px;
 }
 
 /* seccion 2*/
-.letra-blanca h3{
-
+.letra-blanca h2{
 	padding-top: 120px;
 	font-family: "Open sans", sans-serif;
 	font-size: 27px;
@@ -171,97 +149,44 @@ text-decoration: none;
 #content2{
 	width: 100%;
 	position: relative;
-	
 	background: #57A79A;
 	height: 530px;
-}
-
-.imagenes2{
-	margin-right: 200px;
-	margin-left: 200px;
-	margin-top:43px;
-}
-
-.imagen-izquierda2{
-	float:left;
-}
-
-.imagen-derecha2{
-	float:right;
 }
 
 /*seccion3*/
 #content3{
 	width: 100%;
 	position: relative;
-	
 	background: #fff;
 	height: 530px;
-}
 
-.imagenes3{
-	margin-right: 200px;
-	margin-left: 200px;
-	margin-top:43px;
-	
-}
-
-.imagen-izquierda3{
-	float:left;
-}
-
-.imagen-derecha3{
-	float:right;
 }
 
 /*seccion4*/
 #content4{
 	width: 100%;
-	position: relative;
-	
+	position: absolute;
 	background: #57A79A;
 	height: 530px;
-
-}
-
-.imagenes4{
-	margin-right: 200px;
-	margin-left: 200px;
-	margin-top:43px;
-	padding-top: 0px;
-	
-}
-
-.imagen-izquierda4{
-	float:left;
-}
-
-.imagen-derecha4{
-	float:right;
 }
 
 /*footer*/
-
 footer{
 	width: 100%;
-	float:left;
 	clear: both;
-	box-shadow: 0px 2px 2px #000;
+	box-shadow: 0px 5px 5px #575748 inset;
+
+	/*box-shadow: 0px 2px 2px #000;
 		-moz-box-shadow:0px 2px 2px #000;
 		-webkit-box-shadow:0px 2px 2px #000;
 	border-radius:5px;
 		-moz-border-radius:5px;
-		-webkit-border-radius:5px;
+		-webkit-border-radius:5px;*/
 	background-color: #F0F0E1;
-
-
 	height: 130px;
 	position: relative;
-	margin: 0;
-	padding-top: px;
+	margin-top: 530px;	
 }
-
-
 
 #acerca-de{
 	font-family: "Open sans", sans-serif;
@@ -272,22 +197,24 @@ footer{
 	list-style: none;
 	width: 600px;
 	float:left;
-	padding: 50px;
+	margin: 20px;
+	padding:30px; 
 }
 
 #redes-s{
-	padding-top: 50px;
-	padding-right:50px;
+	margin: 20px;
+	float: right;
+	background: red;
 }
 
 #redes-s div{
 	width:50px;
 	height: 50px;
-	float: right;
+	float: left;
 	background: #ff8000;
 	margin-right: 0px;
 	opacity: 0.5;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 #redes-s > div a{
@@ -313,4 +240,3 @@ footer{
 #redes-s > div:hover{
 	opacity:1;
 }
-
