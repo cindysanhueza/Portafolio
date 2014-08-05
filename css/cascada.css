@@ -494,9 +494,8 @@ div.scroller {
 	float: center;
 	margin: auto;
 	width: 944px;
-	position: absolute;	
 	text-align: center;
-	padding-top: 200px;
+	
 }
 
 #controles-estudio img{
