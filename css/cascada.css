@@ -85,7 +85,7 @@ a{
 	position: fixed;
 	top:50px;
 
-	background: url("file:///C:/Users/Administrador/Documents/GitHub/Portafolio/imagenes/congruent_pentagon.png");
+	background: url("http://cram.org/wp-content/uploads/2014/06/congruent_pentagon.png");
 	background-repeat: repeat;
 	opacity: 1;
 	visibility: visible;
@@ -327,13 +327,13 @@ footer{
     margin-right: 0px;
 }
 .jMyCarousel .prev  {   
-    background: url('file:///C:/Users/Administrador/Documents/GitHub/Portafolio/img/left.png') center center no-repeat; 
+    background: url('img/left.png') center center no-repeat; 
     width:40px; 
     height:61px; 
     border:0px; 
 }
 .jMyCarousel .next  {   
-    background: url('file:///C:/Users/Administrador/Documents/GitHub/Portafolio/img/right.png') center center no-repeat; 
+    background: url('img/right.png') center center no-repeat; 
     width:40px; 
     height:61px; 
     border:0px; 
@@ -356,7 +356,7 @@ footer{
 	margin: auto;
 	float: center;
 	/*background-color:  rgba(83, 169, 154, 0.5);*/
-	background: url("file:///C:/Users/Administrador/Documents/GitHub/Portafolio/imagenes/congruent_pentagon.png");
+	background: url("http://cram.org/wp-content/uploads/2014/06/congruent_pentagon.png");
 	width: 100%px;
 	height:350px;
 
@@ -367,14 +367,16 @@ footer{
 	padding-top: 0px;
 	float: left;
 	width: 270px;
-	background-color:  rgba(83, 169, 154, 0.5);
-	padding-right: 20px;
+
+	padding-right: 40px;
 
 }
 #mas-proyectos{
 	padding-right: 40px;
 	margin-left: 211px;
 	width: 944px;
+	text-align: center;
+	float: center;
 }
 
 #mas-proyectostitulo h4{ 
