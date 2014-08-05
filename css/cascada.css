@@ -390,14 +390,15 @@ footer{
 /*-----------------------ESTUDIOS--------------------------------*/
 
 #titulo-estudios{
+	
 	width: 944px;
-	height:1100px;
+	height:200px;
 	float: center;
 	margin: auto;
 }
 
 #titulo-estudios h3{
-	padding-top:70px;
+	padding-top:120px;
     font-family: "Open sans", sans-serif;
     font-size: 27px;
     color:#53A99A;
@@ -405,6 +406,7 @@ footer{
 }
 
 #galeria-estudios{
+	padding-top: 40px;
 	width: 944px;
 	height:1100px;
 	float: center;
@@ -422,6 +424,7 @@ footer{
 	display: inline;
 	list-style: none;
 	float: left;
+	padding-right: 20px;
 }
 
 
@@ -429,6 +432,7 @@ footer{
 	width:944px;
 	float: center;
 	margin: auto;
+	height: 500px
 }
 
 
@@ -436,17 +440,24 @@ footer{
 div.scroller { 
 	/* modify width and height of scrolling section if necessary	*/		
 	width: 944px; 
-	float: center;
+	float: left;
+	-moz-overflow:hidden;
+	-webkit-overflow:hidden;
 	overflow: hidden;
+	height: 500px;
+	padding-top:70px;
+	padding-left: 0px;
 	
 	}
 	div.scroller div.section {
 		/* modify width and height of each section as needed (should match the size of the scroller window)	*/		
 		width:2000px;
 		height:300px;
+		-moz-overflow:hidden;
+		-webkit-overflow:hidden;
 		overflow:hidden;
 		float:left;
-		padding:1em;		
+				
 		}
 	div.scroller div.content {
 		width: 10000px;
@@ -457,13 +468,35 @@ div.scroller {
 		color:#ffffff;
 		}
 
+#section1 {
+	height: 500px;
+}
+
+#section2 {
+	height: 500px;
+}
+
+#section3 {
+	height: 500px;
+}
+
+#section4 {
+	height: 500px;
+}
+
+
 .section img{
-	width:300px;
+	height:462px;
+
 }
 
 #controles-estudio{
 	float: center;
 	margin: auto;
+	width: 944px;
+	position: absolute;	
+	text-align: center;
+	padding-top: 200px;
 }
 
 #controles-estudio img{
