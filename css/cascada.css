@@ -201,11 +201,10 @@ footer{
 	width: 100%;
 	clear: both;
 	box-shadow: 0px 5px 5px #575748 ;
-
-	/*box-shadow: 0px 2px 2px #000;
-		-moz-box-shadow:0px 2px 2px #000;
-		-webkit-box-shadow:0px 2px 2px #000;
-	border-radius:5px;
+	-moz-box-shadow:0px 5px 5px #575748 ;
+	-webkit-box-shadow:0px 5px 5px #575748 ;
+	
+	/*	border-radius:5px;
 		-moz-border-radius:5px;
 		-webkit-border-radius:5px;*/
 	background-color: #F0F0E1;
@@ -250,37 +249,7 @@ footer{
 #redes-s > a:hover{
 	opacity:1;
 }
--------------------------------------------------
 
-.textomovil { width: 452px; 
-	height: 188px; 
-	line-height: 0px; 
-	color: transparent; 
-	font-size: 50px; 
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-weight: 300; 
-	text-transform: uppercase; -webkit-transition: all 0.5s ease; 
-	-moz-transition: all 0.5s ease; 
-	-o-transition: all 0.5s ease; 
-	position: absolute;
-	
-} 
-.textomovil:hover { 
-	line-height: 133px; 
-	color: #575858; 
-	background: gray;
-	font-family: "Open sans", sans-serif;
-	font-size: 12px;
-	color:blue;
-	text-align: justify;
-	line-height: 20px;
-} 
-
-.textomovil img{ 
-	float: left; 
-	margin: 0 15px; 
-} 
-------------------------------------------------------------
 /*-----------------------PROYECTOS--------------------------------*/
 
 #content-proyecto{
