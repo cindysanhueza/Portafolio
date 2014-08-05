@@ -534,8 +534,13 @@ margin: auto;
 padding-top: 90px;
 }
 
-#Titulo-digital h3{
-
+#Titulo-digital h2{
+  font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:60px;
+     padding-bottom: 20px;
 }
 
 #Titulo-digital p{
@@ -548,8 +553,13 @@ width:944px;
 margin: auto;
 }
 
-#titulo-infografias h3{
-
+#titulo-infografias h2{
+  font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:60px;
+     padding-bottom: 20px;
 }
 
 #titulo-infografias p{
