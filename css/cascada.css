@@ -254,13 +254,13 @@ footer{
 
 #content-proyecto{
 	width: 944px;
-	height:1100px;
+	height:1260px;
 	float: center;
 	margin: auto;
 }
 
 #content-proyecto h3{ 
-    padding-top:70px;
+    padding-top:120px;
     font-family: "Open sans", sans-serif;
     font-size: 27px;
     
@@ -273,11 +273,21 @@ footer{
     font-size: 18px; 
     color:gray;  
     text-align: center;
+     padding-top:60px;
+     padding-bottom: 20px;
 }
+
+#content-proyecto p{ 
+    font-family: "Open sans", sans-serif;
+    font-size: 14px; 
+    color:black;  
+    text-align: justify;
+ }
 
 #contenido_galeria {   
     position: relative; 
     height: 500px; 
+    padding-top:0px; 
 }
 #contenido_galeria img  {   
     float: left; 
@@ -288,7 +298,7 @@ footer{
 #contenido_galeria ul{   
     width: 340px; 
     position: absolute; 
-    top: 300px; 
+    top: 250px; 
     left: 550px; 
     background-color: white; 
     font-family: "Open sans", sans-serif;
@@ -342,24 +352,38 @@ footer{
     margin: 0px 5px 0px;
 }
 
-#mas-proyectos{
+#mas-proyectostitulo{
 	margin: auto;
 	float: center;
 	/*background-color:  rgba(83, 169, 154, 0.5);*/
 	background: url("file:///C:/Users/Administrador/Documents/GitHub/Portafolio/imagenes/congruent_pentagon.png");
 	width: 100%px;
-	height:250px;
-	padding-top: 40px;
-	padding-left: 211px;
+	height:350px;
+
+		
 }
 
 #mas-proyectos img{
-
+	padding-top: 0px;
 	float: left;
 	width: 270px;
 	background-color:  rgba(83, 169, 154, 0.5);
+	padding-right: 20px;
+
+}
+#mas-proyectos{
 	padding-right: 40px;
-	
+	margin-left: 211px;
+	width: 944px;
+}
+
+#mas-proyectostitulo h4{ 
+    font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:40px;
+
 }
 
 
