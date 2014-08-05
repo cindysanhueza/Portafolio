@@ -250,8 +250,37 @@ footer{
 #redes-s > a:hover{
 	opacity:1;
 }
+-------------------------------------------------
 
+.textomovil { width: 452px; 
+	height: 188px; 
+	line-height: 0px; 
+	color: transparent; 
+	font-size: 50px; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-weight: 300; 
+	text-transform: uppercase; -webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	position: absolute;
+	
+} 
+.textomovil:hover { 
+	line-height: 133px; 
+	color: #575858; 
+	background: gray;
+	font-family: "Open sans", sans-serif;
+	font-size: 12px;
+	color:blue;
+	text-align: justify;
+	line-height: 20px;
+} 
 
+.textomovil img{ 
+	float: left; 
+	margin: 0 15px; 
+} 
+------------------------------------------------------------
 /*-----------------------PROYECTOS--------------------------------*/
 
 #content-proyecto{
@@ -454,7 +483,10 @@ div.scroller {
 /*-----------------------DIGITAL--------------------------------*/
 
 #mapa{
-	margin-top: 190px;
+	float: center;
+	text-align: center;
+	margin: auto;
+	padding-top: 190px;
 	
 }
 
