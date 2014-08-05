@@ -250,6 +250,22 @@ footer{
 	opacity:1;
 }
 
+#foto{
+	width:454px;
+	height:188px; 
+}
+
+#info{
+	width:454px;
+	height:188px; 
+	background-color: gray;
+	visibility: hidden;
+}
+
+#foto:hover #info{
+	visibility: visible;
+}
+
 /*-----------------------PROYECTOS--------------------------------*/
 
 #content-proyecto{
