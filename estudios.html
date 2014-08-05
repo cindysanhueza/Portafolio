@@ -1,62 +1,114 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Portafolio Cindy Sanhueza</title>
-  <link rel="stylesheet" href="collapsingheader.css">
-   
- 
-   <meta charset="UTF-8">
-</head>
+	<head>
+	  <title>Portafolio Cindy Sanhueza</title>
+	  <link rel="stylesheet" type="text/css" href="css/cascada.css"/>
+	  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+	  <meta charset="UTF-8">
+	  <script src="javascripts/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/effects.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/glider.js" type="text/javascript" charset="utf-8"></script>
+	
+	</head>
 
-<body>
-
-	<div id="container">
+	<body>
 		<header>
 			<div class="logo">
-				<a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/index.html"><img src="imagenes/logo 45x71px-12.png" ></a>
-				
+				<a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/index.html"><img src="imagenes/logo 45x71px-12.png" >
+				<li>CINDY SANHUEZA</li></a>
 			</div>
 
 			<div class="nav">
 				<ul>
-					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/proyectos.html">PROYECTOS</a></li>
-					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/estudios.html">ESTUDIOS</a></li>
+					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/proyectos.html" >PROYECTOS</a></li>
+					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/estudios.html" *>ESTUDIOS</a></li>
 					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/personales.html">PERSONALES</a></li>
 					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/digital.html">DIGITAL</a></li>
 					<li><a href="file:///C:/Users/Administrador/Documents/GitHub/Portafolio/contacto.html">SOBRE MÍ</a></li>
 				</ul>
 			</div>
-		</header>	
-	</div>	
+		</header>
+
+
+		<div id="titulo-estudios">
+
+			<h3>ESTUDIOS</h3>
+
+		</div>
+
+<div id="galeria-estudios">	
+
+  <div id="my-glider">
+		<div class="controls">
+			<ul>
+				<li><a href="#section1">Impresionismo</a></li> 
+				<li><a href="#section2">Renacimiento</a> </li>
+				<li><a href="#section3">Tipografía</a></li> 
+				<li><a href="#section4">Croquis</a></li> 
+         	</ul>
+		</div>
+		
+		<div class="scroller">
+			<div class="content">
+				<div class="section" id="section1">
+					Section 1
+					<p>Aqui va el primero :D!!!</p>
+					<img src="Imagenes/1.jpg">
+					<img src="Imagenes/2.jpg">
+					<img src="Imagenes/3.jpg">
+				</div>
+				<div class="section" id="section2">
+					Section 2
+					<p>Aqui va el Segundo :D!!</p>
+                    <img src="Imagenes/2.jpg">
+				</div>
+				<div class="section" id="section3">
+					Section 3
+					<p>Aqui va el Tercero</p>					
+					<img src="Imagenes/3.jpg">
+				</div>
+				<div class="section" id="section4">
+					Section 4
+					<p>Aqui va la 4:</p>					
+					<img src="Imagenes/4.jpg">
+				</div>
+               
+                
+			</div>
+		</div>			
+	</div>
+    
+    <div id="controles-estudio">
+		<a href="#" onclick="my_glider.previous();return false;"><img src="Imagenes/Flecha2.png"></a>   
+		<a href="#" onclick="my_glider.next();return false"><img src="Imagenes/Flecha1.png"></a>
+	</div>
+
+</div>
+
+	<script type="text/javascript" charset="utf-8">
+		var my_glider = new Glider('my-glider', {duration:0.5});
+	</script>
 
 
 
 
-	<h3>Estudios</h3>
-
-
-	
-	
 
 
 
 
-
-
-<footer>
-	<section id="acerca-de">
-		<article>
+	<footer>
+		<section id="acerca-de">
+			<article>
 				<li>Cindy Sanhueza Castro.  2014</li>
 				<li>cindy.sanhueza2011@gmail.com</li>
-		</article>
-	</section>
+			</article>
+		</section>
+		<section id="redes-s">
+			<a href="https://www.facebook.com/cindy.sanhuezacastro"><img src="imagenes/iconfacebook3.png" title="Facebook"></a>
 		
-	<section id="redes-s">
-		<div class="facebook"><a href="https://www.facebook.com/cindy.sanhuezacastro" title=""></a></div>
-		<div class="github"><a href="https://github.com/cindysanhueza" title=""></a></div>
-	</section>
-
-</footer>
+			<a href="https://github.com/cindysanhueza"><img src="imagenes/icongithub3.png" title="Github"></a>
+		</section>
+	</footer>
 
 
 

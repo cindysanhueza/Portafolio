@@ -19,13 +19,32 @@ header{
 .logo{
 	float:left;
 	margin-left: 100px;
+	height: 50px;
+	width: 600px;
 	margin-top: 7px;
+	display: block;
 }
 
 .logo img{
+	float: left;
 	width:24px;
 	height:38px;
 }
+
+.logo li{
+	padding-top: 4px;
+	padding-left: 8px;
+	float: left;
+	list-style: none;
+	font-family: "Open sans", sans-serif;
+	font-size: 14px;
+	color:gray;
+}
+
+.logo li:hover{
+	color:#402144;
+}
+
 
 .nav {
 	float:right;
@@ -48,6 +67,8 @@ a{
 	padding-right: 0px;
 	border-bottom: #874F99 solid;
 }
+
+
 
 .nav li{
 	list-style: none;
@@ -171,10 +192,15 @@ a{
 }
 
 /*footer*/
+
+#espacio-footer{
+	margin-top: 530px;
+}
+
 footer{
 	width: 100%;
 	clear: both;
-	box-shadow: 0px 5px 5px #575748 inset;
+	box-shadow: 0px 5px 5px #575748 ;
 
 	/*box-shadow: 0px 2px 2px #000;
 		-moz-box-shadow:0px 2px 2px #000;
@@ -185,7 +211,7 @@ footer{
 	background-color: #F0F0E1;
 	height: 130px;
 	position: relative;
-	margin-top: 530px;	
+		
 }
 
 #acerca-de{
@@ -204,39 +230,360 @@ footer{
 #redes-s{
 	margin: 20px;
 	float: right;
-	background: red;
+	height:50px; 
+	width:120px;
 }
 
-#redes-s div{
-	width:50px;
-	height: 50px;
+#redes-s a{
 	float: left;
-	background: #ff8000;
 	margin-right: 0px;
+	padding-top: 20px;
 	opacity: 0.5;
-	padding-top: 30px;
 }
 
-#redes-s > div a{
+#redes-s > a img{
 	width:50px;
 	height: 50px;
 	display: block;
 }
 
-#redes-s > .facebook{
-	background: url(imagenes/iconfacebook3.png);
-	background-repeat: no-repeat;
-	padding-top:40px;
-	
-}
-#redes-s > .github{
-	background: url(imagenes/icongithub3.png);
-	background-repeat: no-repeat;	
-	padding-top:40px;
-	
-}
-
-
-#redes-s > div:hover{
+#redes-s > a:hover{
 	opacity:1;
+}
+
+
+/*-----------------------PROYECTOS--------------------------------*/
+
+#content-proyecto{
+	width: 944px;
+	height:1100px;
+	float: center;
+	margin: auto;
+}
+
+#content-proyecto h3{ 
+    padding-top:70px;
+    font-family: "Open sans", sans-serif;
+    font-size: 27px;
+    
+    color:#53A99A;
+    text-align: center;
+}
+
+#content-proyecto h4{ 
+    font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+}
+
+#contenido_galeria {   
+    position: relative; 
+    height: 500px; 
+}
+#contenido_galeria img  {   
+    float: left; 
+    width: 500px; 
+    position: absolute; 
+    margin-left: 0px; 
+}
+#contenido_galeria ul{   
+    width: 340px; 
+    position: absolute; 
+    top: 300px; 
+    left: 550px; 
+    background-color: white; 
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    list-style: none;
+}
+            
+#contenido_galeria h5{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px; 
+    color:gray;  
+    text-align: center;
+}
+        
+#seccion-galeria{
+   margin-top: 80px;
+    width:640;
+}
+
+
+.jMyCarousel  {   
+    margin-top: 10px; 
+    width: 800px;
+    margin-left: 0px;  
+    margin-right: 0px;
+}
+.jMyCarousel .prev  {   
+    background: url('file:///C:/Users/Administrador/Documents/GitHub/Portafolio/img/left.png') center center no-repeat; 
+    width:40px; 
+    height:61px; 
+    border:0px; 
+}
+.jMyCarousel .next  {   
+    background: url('file:///C:/Users/Administrador/Documents/GitHub/Portafolio/img/right.png') center center no-repeat; 
+    width:40px; 
+    height:61px; 
+    border:0px; 
+}
+.jMyCarousel ul li   {   
+    margin:0px ; 
+    line-height:0px; 
+    padding:0px; 
+}
+.jMyCarousel ul li a  {   
+    display:block; 
+}
+.jMyCarousel ul li img   {   
+    display:block; 
+    border:0px; 
+    margin: 0px 5px 0px;
+}
+
+#mas-proyectos{
+	margin: auto;
+	float: center;
+	/*background-color:  rgba(83, 169, 154, 0.5);*/
+	background: url("file:///C:/Users/Administrador/Documents/GitHub/Portafolio/imagenes/congruent_pentagon.png");
+	width: 100%px;
+	height:250px;
+	padding-top: 40px;
+	padding-left: 211px;
+}
+
+#mas-proyectos img{
+
+	float: left;
+	width: 270px;
+	background-color:  rgba(83, 169, 154, 0.5);
+	padding-right: 40px;
+	
+}
+
+
+/*-----------------------ESTUDIOS--------------------------------*/
+
+#titulo-estudios{
+	width: 944px;
+	height:1100px;
+	float: center;
+	margin: auto;
+}
+
+#titulo-estudios h3{
+	padding-top:70px;
+    font-family: "Open sans", sans-serif;
+    font-size: 27px;
+    color:#53A99A;
+    text-align: center;
+}
+
+#galeria-estudios{
+	width: 944px;
+	height:1100px;
+	float: center;
+	margin: auto;
+}
+
+.controls {
+	width:944px;
+	float: center;
+	margin: auto;
+}
+
+
+.controls li{
+	display: inline;
+	list-style: none;
+	float: left;
+}
+
+
+.content{
+	width:944px;
+	float: center;
+	margin: auto;
+}
+
+
+
+div.scroller { 
+	/* modify width and height of scrolling section if necessary	*/		
+	width: 944px; 
+	float: center;
+	overflow: hidden;
+	
+	}
+	div.scroller div.section {
+		/* modify width and height of each section as needed (should match the size of the scroller window)	*/		
+		width:2000px;
+		height:300px;
+		overflow:hidden;
+		float:left;
+		padding:1em;		
+		}
+	div.scroller div.content {
+		width: 10000px;
+		}
+
+	div#section2 {
+		background:#666666;
+		color:#ffffff;
+		}
+
+.section img{
+	width:300px;
+}
+
+#controles-estudio{
+	float: center;
+	margin: auto;
+}
+
+#controles-estudio img{
+	float: left;
+
+}
+
+
+	
+/*-----------------------DIGITAL--------------------------------*/
+
+#mapa{
+	margin-top: 190px;
+	
+}
+
+#galeria-digital{
+	width: 944px;
+	height:800px;
+	float: center;
+	margin: auto;
+	padding-top: 190px;
+}
+
+#Titulo-digital{
+float:center;
+width:944px;
+margin: auto;
+padding-top: 90px;
+}
+
+#Titulo-digital h3{
+
+}
+
+#Titulo-digital p{
+
+}
+
+#titulo-infografias{
+float:center;
+width:944px;
+margin: auto;
+}
+
+#titulo-infografias h3{
+
+}
+
+#titulo-infografias p{
+
+}
+
+/*-----------------------PERSONALES--------------------------------*/
+
+#content-personales{
+	width:944px;
+	float: center;
+	margin: auto;
+}
+
+#caja-encuadernacion{
+	width:944px;
+
+}
+
+#caja-xiloestencil{
+	width:944px;
+}
+
+
+/*-----------------------CONTACTO--------------------------------*/
+
+#contacto{
+	padding-top:190px; 
+	margin: auto;
+	width: 460px;
+	padding-bottom: 0px;
+	float: center;
+	text-align: center;
+}
+
+#contacto h3{
+	padding-bottom: 10px;
+	font-family: "Open sans", sans-serif;
+	font-size: 27px;
+	float: center;
+	color:#53A99A;
+}
+
+#contacto img{
+	 width: 200px; 
+	height: 200px; 
+	border-radius: 150px; 
+	-webkit-border-radius: 150px; 
+	-moz-border-radius: 150px; 
+	
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+	float: center;
+	margin: auto;
+} 
+
+#contacto p{
+	font:14px "Open sans", sans-serif;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+#formulario{
+	height: 600px;
+	float:left;
+	margin: auto;
+	text-align:left;
+	padding-left: 512px;
+}
+
+label{
+	display: block;
+
+}
+
+section{
+
+float: center;
+}
+
+#btnSubmit{
+	border:none;
+	background-color: #F0F0E1;
+	color:#53A99A;
+	padding: 4px;
+	margin: 20px;
+	cursor:pointer;
+}
+
+section h3{ 
+    padding-top: 100px;
+    font-family: "Open sans", sans-serif;
+    font-size: 27px;
+    float: center;
+    color:#53A99A;
+    text-align: center;
 }
